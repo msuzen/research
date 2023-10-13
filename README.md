@@ -1,2 +1,2 @@
 # research
-Memo's research works.
+Memo's research works, supplements.

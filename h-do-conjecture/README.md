@@ -2,8 +2,6 @@
 
 Supplementary material for `H-Theorem do-conjecture` [arXiv:2310.01458](https://arxiv.org/abs/2310.01458). 
 
-![Lattice](omegaM1000N100.png "Interventional Ensembles")
-
 ## `do_ensemble` Module
 
 The following functionality is provided by the module.
@@ -28,6 +26,6 @@ Tested on Python `3.9.16`, use requirement for correct Numpy/Matplotlib versions
 
 ```
     Mehmet Suezen
-    (c) 2023
+    (c) 2023-2024
     GPLv3
 ```

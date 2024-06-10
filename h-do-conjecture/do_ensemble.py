@@ -105,7 +105,7 @@ def simulate_interventional_ensemble_effect(M, N, seed=42, plot_eps=False):
     omega_t = []
     dynamic_evolution = []
     np.random.seed(seed)
-    for _ in np.arange(3e5):
+    for _ in np.arange(2e6):
         dynamic_evolution.append(m_sites.copy())
         m_sites, omega_size = move_step(m_sites)
         omega_t.append(omega_size.copy())
@@ -114,13 +114,10 @@ def simulate_interventional_ensemble_effect(M, N, seed=42, plot_eps=False):
     omega_t_interventional = []
     dynamic_evolution_interventional = []
     np.random.seed(seed)
-    for _ in np.arange(3e5):
+    for _ in np.arange(2e6):
         dynamic_evolution_interventional.append(m_sites.copy())
         m_sites, omega_size = move_step_intervention(m_sites)
         omega_t_interventional.append(omega_size.copy())
-    
-    omega_t = omega_t[0::200]
-    omega_t_interventional = omega_t_interventional[0::200]
     
     font = {"family": "monospace", "weight": "bold", "size": 12}
     plt.ioff()

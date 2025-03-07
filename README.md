@@ -9,7 +9,8 @@ Memo's research works and supplements.
 
 ## Paper Supplements
 
-* [H-theorem do-conjecture](h-do-conjecture) 
+* [H-theorem do-conjecture](h-do-conjecture)
+* [Understanding entropy production with a thermal zero-player game](ising_conway_thermal) 
 
 ## License
 

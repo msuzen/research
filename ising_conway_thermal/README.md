@@ -26,18 +26,18 @@ Main game functions and utilities:
 ## Generate data & plots
 
 Following scripts generate the data and plots. 
-
-`entropy_generate_dataset.py`: Generates dataset `data_entropy_production.dill`. 
-`stacked_trajectories.py`: Full evolution of games, as an example. 
-`plot_entropy_evolution.py`: Entropy evolution of all settings from generated dataset.  
-`plot_entropy_production.py`: Entropy production of all settings from production. 
+   
+`entropy_generate_dataset.py`: Generates dataset `data_entropy_production.dill`.       
+`stacked_trajectories.py`: Full evolution of games, as an example.      
+`plot_entropy_evolution.py`: Entropy evolution of all settings from generated dataset.      
+`plot_entropy_production.py`: Entropy production of all settings from production.      
 
 ## Outputs
 
-Data files due to dataset generation, `data_entropy_production.dill`. 
-
-Images due to plot scripts.
-
+Data files due to dataset generation, `data_entropy_production.dill`.     
+   
+Images due to plot scripts.    
+    
 ```bash
 entropy_N100M20dynamicsglauber.png
 entropy_N100M20dynamicsmetropolis.png

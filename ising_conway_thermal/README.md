@@ -12,16 +12,16 @@ See `requirements.txt`.
 
 Main game functions and utilities:
 
-`initialise` : Creates the game, N by M, M 1s at the corner of 1D N lattice. 
-`get_total_energy`: Sum of average of neighbours with 1s. 
-`metropolis_accept`: Acceptance of a move via Metropolis dynamics. 
-`glauber_accept`: Acceptance of a move via Glauber dynamics. 
-`move_step`: Move one step. 
-`play`: Play the entire game given M, N, temperature, steps, seed.  
-`generate_entropy_production`: Measure entropy over repeated plays, alignment & averaged.
-`generate_data_set`: Generate dataset given N,M and temperatures.
-`plot_entropy_from_sim_results_betas`: Using result from data generation to plot entropy evolution with temperatures.
-`get_entropy_production_from_sim_results`: Using result from data generation to plot entropy production over temperature.
+`initialise` : Creates the game, N by M, M 1s at the corner of 1D N lattice.    
+`get_total_energy`: Sum of average of neighbours with 1s.    
+`metropolis_accept`: Acceptance of a move via Metropolis dynamics.   
+`glauber_accept`: Acceptance of a move via Glauber dynamics.    
+`move_step`: Move one step.   
+`play`: Play the entire game given M, N, temperature, steps, seed.    
+`generate_entropy_production`: Measure entropy over repeated plays, alignment & averaged.   
+`generate_data_set`: Generate dataset given N,M and temperatures.   
+`plot_entropy_from_sim_results_betas`: Using result from data generation to plot entropy evolution with temperatures.   
+`get_entropy_production_from_sim_results`: Using result from data generation to plot entropy production over temperature.   
 
 ## Generate data & plots
 

@@ -5,6 +5,11 @@ A supplement is provided for the paper
 Gibbs randomness-compression proposition: An efficient deep learning     
 doi: [10.48550/arXiv.2505.23869](https://arxiv.org/abs/2505.23869)  
 
+## Summary discussion
+
+[gibbs_randomness_proposition_notebooklm.mp3](gibbs_randomness_proposition_notebooklm.mp3)  
+Thank to Google's NotebookLM.
+
 ## Regenerating the data 
 
 The data consist of train-compress cylcle on MNIST dataset, storing

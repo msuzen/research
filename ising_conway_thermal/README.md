@@ -46,11 +46,12 @@ entropy_N150M45dynamicsmetropolis.png
 entropy_production.png
 ising_conway_glauber_evolution_150_45_beta_0.9.png
 ising_conway_metropolis_evolution_150_45_beta_0.9.png
-``
+```
 
 ## License
 
 This repository and all contributions are licensed under :
 * All non-code  [![License: CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 * Code under [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-~                                                                                                                                  
+
+

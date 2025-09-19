@@ -111,6 +111,9 @@ def generate_entropy_production(
     entropy_product_mean = np.array(
         [ep[0:min_length_align] for ep in entropy_product] # these are actually just entropy over moves
     ).mean(axis=0)
+    entropy_product_std = np.array(
+        [ep[0:min_length_align] for ep in entropy_product] # these are actually just entropy over moves
+    ).std(axis=0)
     entropy_product_data = {
         "N": N,
         "M": M,
@@ -118,7 +121,8 @@ def generate_entropy_production(
         "beta": beta,
         "dynamics": dynamics,
         "nrepeat": nrepeat,
-        "entropy_product_mean": entropy_product_mean, # these are actually just entropy over moves
+        "entropy_product_mean":entropy_product_mean, # these are actually just entropy over moves
+        "entropy_product_se":entropy_product_std/np.sqrt(nrepeat)
     }
     return entropy_product_data
 
@@ -151,12 +155,16 @@ def generate_data_set(sim_params):
                 )
                 data_set["sim_results"].append(entropy_product_data)
     return data_set
-
-def plot_entropy_from_sim_results_betas(sim_results, N, M, dynamics, spacing=1000):
+    
+def plot_entropy_from_sim_results_betas(sim_results, N, M, dynamics, spacing=2000):
     styles = iter(['-', '--', '-.', ':', '.', '>', '<', '*', 'x', '!', 'o'])
     for res in sim_results:
         if res['N'] == N and res['M'] == M and res['dynamics'] == dynamics:
-            plt.plot(res['entropy_product_mean'][::spacing], next(styles), label=f"beta={res['beta']}")
+           nstep = len(res['entropy_product_mean']) 
+           x = np.arange(0, nstep)  
+           plt.errorbar(x=x[::spacing], y=res['entropy_product_mean'][::spacing], 
+                        yerr=res['entropy_product_se'][::spacing], 
+                        label=f"beta={res['beta']}", fmt=next(styles))
     plt.legend()
     plt.xlabel(f"Accepted Game Move x{spacing}")
     plt.ylabel("Entropy")
@@ -167,11 +175,15 @@ def plot_entropy_from_sim_results_betas(sim_results, N, M, dynamics, spacing=100
 def get_entropy_production_from_sim_results(sim_results, N, M, dynamics):
     """ Get entropy production.  """
     entropy_beta = []
+    entropy_se = []
     for res in sim_results:
         if res['N'] == N and res['M'] == M and res['dynamics'] == dynamics:
             entropy_beta.append((res['beta'], res['entropy_product_mean']))
+            entropy_se.append((res['beta'], res['entropy_product_se']))
     betas = [beta[0] for beta in entropy_beta]
     align_length = np.min([len(beta[1]) for beta in entropy_beta])
     entropy_curves = [data[1][:align_length] for data in entropy_beta]
+    entropy_curves_se = [data[1][:align_length] for data in entropy_se]
     entropy_prod = [np.sum(ec) for ec in entropy_curves]
-    return betas, entropy_prod/entropy_prod[0]
+    entropy_prod_se = [np.sum(ec) for ec in entropy_curves_se] # Here we compute SE area
+    return betas, entropy_prod/entropy_prod[0], entropy_prod_se/entropy_prod[0]

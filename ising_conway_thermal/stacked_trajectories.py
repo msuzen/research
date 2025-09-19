@@ -41,13 +41,15 @@ for _ in range(10):
 de2 = np.hstack(vs)
 
 
-font = {"family": "monospace", "weight": "bold", "size": 28}
+font = {"family": "monospace", "weight": "bold", "size": 14}
 # plt.ioff()
 plt.rc("font", **font)
 plt.matshow(np.array(de2).transpose(),cmap=plt.cm.Blues)
 plt.xticks([])
 plt.yticks([])
-plt.title(r"Typical Glauber Trajectories \\    150/45 Game: Evolution (Stacked) \\ Temperature $\beta=0.9$")
+plt.ylabel("Lattice sites of the game over time \n Next row is a continuation of the game.")
+plt.xlabel("Time evolution (Monte Carlo steps) \n Each row is a time window")
+plt.title(r"Typical Glauber Trajectories: 150/45 Game: Evolution (Stacked) $\beta=0.9$")
 plt.savefig("ising_conway_glauber_evolution_150_45_beta_0.9.png", format="png", bbox_inches="tight")
 plt.show()
 
@@ -72,12 +74,14 @@ for _ in range(10):
 de2 = np.hstack(vs)
 
 
-font = {"family": "monospace", "weight": "bold", "size": 28}
+font = {"family": "monospace", "weight": "bold", "size": 14}
 plt.ioff()
 plt.rc("font", **font)
 plt.matshow(np.array(de2).transpose(),cmap=plt.cm.Blues)
 plt.xticks([])
 plt.yticks([])
-plt.title(r"Typical Metropolis Trajectories \\ 150/45 Game: Evolution (Stacked) \\ Temperature $\beta=0.9$")
-plt.savefig("ising_conway_metropolis_evolution_150_45_beta_0.9.png", format="png", bbox_inches="tight")
+plt.ylabel("Lattice sites of the game over time \n Next row is a continuation of the game.")
+plt.xlabel("Time evolution (Monte Carlo steps) \n Each row is a time window")
+plt.title(r"Typical Metropolis Trajectories: 150/45 Game: Evolution (Stacked) $\beta=0.9$")
+plt.savefig("ising_conway_metropolis_evolution_150_45_beta_0.9.png", format="png" , bbox_inches="tight")
 plt.show()

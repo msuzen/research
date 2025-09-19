@@ -27,33 +27,43 @@ sim_results = data['sim_results']
 
 
 styles = iter(['-', '--', '-.', ':', '.', '>', '<', '*', 'x', '!', 'o'])
+font = {"family": "monospace", "weight": "bold", "size": 14}
+plt.rc("font", **font)
 
 N=100 
 M=20
 dynamics='metropolis'    
-betas, entropy_production  = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
-plt.plot(betas, entropy_production, next(styles), label=f"Game {N}-{M} {dynamics}")
+betas, entropy_production, entropy_production_se  = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
+plt.errorbar(x=betas, y=entropy_production,
+                        yerr=entropy_production_se,
+                        label=f"Game {N}-{M} {dynamics}", fmt=next(styles))
+
 N=100 
 M=20
 dynamics='glauber'    
-betas, entropy_production  = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
-plt.plot(betas, entropy_production, next(styles), label=f"Game {N}-{M} {dynamics}")
-
+betas, entropy_production, entropy_production_se = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
+plt.errorbar(x=betas, y=entropy_production,
+                        yerr=entropy_production_se,
+                        label=f"Game {N}-{M} {dynamics}", fmt=next(styles))
 N=150 
 M=45
 dynamics='metropolis'    
-betas, entropy_production  = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
-plt.plot(betas, entropy_production, next(styles), label=f"Game {N}-{M} {dynamics}")
+betas, entropy_production, entropy_production_se = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
+plt.errorbar(x=betas, y=entropy_production,
+                        yerr=entropy_production_se,
+                        label=f"Game {N}-{M} {dynamics}", fmt=next(styles))
 N=150 
 M=45
 dynamics='glauber'    
-betas, entropy_production  = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
-plt.plot(betas, entropy_production, next(styles), label=f"Game {N}-{M} {dynamics}")
+betas, entropy_production, entropy_production_se = ising_conway.get_entropy_production_from_sim_results(sim_results, N, M, dynamics)
+plt.errorbar(x=betas, y=entropy_production,
+                        yerr=entropy_production_se,
+                        label=f"Game {N}-{M} {dynamics}", fmt=next(styles))
 
 plt.legend()
-
-plt.xlabel(f"Different Temperature")
+plt.xlabel(r"Different Temperature $\beta$ ")
 plt.ylabel("Entropy Production Due to Thermal Bath")
-plt.title(f"Entropy Production \n Different Temperatures ")
-plt.savefig(f"entropy_production.png", format="png", bbox_inches="tight")  
+plt.ylim([0.8, 5.0])
+plt.title("Entropy Production \n Different Temperatures ")
+plt.savefig("entropy_production.png", format="png", bbox_inches="tight")  
 plt.close()

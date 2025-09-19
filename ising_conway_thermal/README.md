@@ -2,11 +2,26 @@
 
 Simulation code and reproducible research for the paper: 
 
-Understanding entropy production with a thermal zero-player game<br>
-<a href="https://arxiv.org/abs/2503.03769">arXiv preprint arXiv:2503.03769</a> (2025)  <br> <br>
+Understanding entropy production with a thermal zero-player game.   
+<a href="https://arxiv.org/abs/2503.03769">arXiv preprint arXiv:2503.03769</a> (2025)     
+
+Also available on Zenedo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17158156.svg)](https://doi.org/10.5281/zenodo.17158156)
+
+
+## Software Requirements 
 
 The model `ising_conway.py` provides tools to playing Ising-Conway game with temperature. 
 See `requirements.txt`.  
+
+`Python` version 3.10.13 is used and dependencies are minimal. `NumPy` 
+for core simulation code, `matplotlib` for visualisationas and `dill`
+for data storage.
+
+```python 
+numpy==1.24.2 
+matplotlib==3.8.0
+dill==0.3.9
+```
 
 ## `ising_conway` methods
 
@@ -36,7 +51,7 @@ Following scripts generate the data and plots.
 
 Data files due to dataset generation, `data_entropy_production.dill`.     
    
-Images due to plot scripts.    
+Images due to plot scripts, with uncertainties.
     
 ```bash
 entropy_N100M20dynamicsglauber.png

@@ -1,5 +1,7 @@
 # Ergodic Dynamics of Ising Model : Diffusion regimes
 
+[![arXiv:1606.08693](https://img.shields.io/badge/arXiv-1606.08693-B31B1B.svg)](https://arxiv.org/abs/1606.08693)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17151290.svg)](https://doi.org/10.5281/zenodo.17151290)
     
    (c) 2013, 2014, 2015, 2016, 2025   
    Süzen   

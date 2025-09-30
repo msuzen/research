@@ -1,12 +1,14 @@
 # Introduction
+[![arXiv:2505.23869](https://img.shields.io/badge/arXiv-2503.03769-B31B1B.svg)](https://arxiv.org/abs/2503.03769) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17158156.svg)](https://doi.org/10.5281/zenodo.17158156)
+
+    M. Süzen   
+    (c) 2025
 
 Simulation code and reproducible research for the paper: 
 
 Understanding entropy production with a thermal zero-player game.   
 <a href="https://arxiv.org/abs/2503.03769">arXiv preprint arXiv:2503.03769</a> (2025)     
-
-Also available on Zenedo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17158156.svg)](https://doi.org/10.5281/zenodo.17158156)
-
 
 ## Software Requirements 
 

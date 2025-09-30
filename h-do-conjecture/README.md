@@ -1,5 +1,11 @@
 # H-theorem do-conjecture : Supplementary material   
 
+[![arXiv:2505.23869](https://img.shields.io/badge/arXiv-2310.01458-B31B1B.svg)](https://arxiv.org/abs/2310.01458) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17232806.svg)](https://doi.org/10.5281/zenodo.17232806)
+
+    M. Süzen   
+    (c) 2023, 2025
+
 Supplementary material for `H-Theorem do-conjecture` [arXiv:2310.01458](https://arxiv.org/abs/2310.01458). 
 
 ## `do_ensemble` Module

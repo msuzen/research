@@ -1,5 +1,11 @@
 ## Supplement: Gibbs randomness-compression proposition: An efficient deep learning
 
+[![arXiv:2505.23869](https://img.shields.io/badge/arXiv-2505.23869-B31B1B.svg)](https://arxiv.org/abs/2505.23869)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15751974.svg)](https://doi.org/10.5281/zenodo.15751974)
+
+    M. Süzen   
+    (c) 2025
+
 A supplement is provided for the paper   
 
 Gibbs randomness-compression proposition: An efficient deep learning     

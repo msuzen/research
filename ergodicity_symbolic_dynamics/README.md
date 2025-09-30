@@ -1,5 +1,8 @@
 # Experiments: Ergodicity detection algorithms: Scaling of ergodicity in random symbolic dynamics 
 
+[![arXiv:2508.08319](https://img.shields.io/badge/arXiv-2508.08319-B31B1B.svg)](https://arxiv.org/abs/2508.08319)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17052627.svg)](https://doi.org/10.5281/zenodo.17052627)
+
     M. Süzen   
     (c) 2025
 

@@ -1,0 +1,27 @@
+\begin{table}[!tbp]
+\begin{center}
+\begin{tabular}{llrrrl}
+\hline\hline
+\multicolumn{1}{l}{df}&\multicolumn{1}{c}{type_power_law}&\multicolumn{1}{c}{N}&\multicolumn{1}{c}{D}&\multicolumn{1}{c}{pvalue}&\multicolumn{1}{c}{parameter}\tabularnewline
+\hline
+1&Distribution Temperature Range&$ 512$&$0.1875$&$0.952256279729904$&alpha scale\tabularnewline
+2&Distribution Temperature Range&$1024$&$0.1875$&$0.952256279729904$&alpha scale\tabularnewline
+3&Distribution Temperature Range&$1536$&$0.1250$&$0.999890969658817$&alpha scale\tabularnewline
+4&Distribution Field Range&$ 512$&$0.2500$&$0.716411656683726$&alpha scale\tabularnewline
+5&Distribution Field Range&$1024$&$0.0625$&$1.000000000000000$&alpha scale\tabularnewline
+6&Distribution Field Range&$1536$&$0.1250$&$0.999890969658817$&alpha scale\tabularnewline
+7&Time Temperature Range&$ 512$&$0.0625$&$1.000000000000000$&alpha scale\tabularnewline
+8&Time Temperature  Range&$1024$&$0.0625$&$1.000000000000000$&alpha scale\tabularnewline
+9&Timer Temperature Range&$1536$&$0.1250$&$0.999890969658817$&alpha scale\tabularnewline
+10&Time Temperature Range&$ 512$&$0.1250$&$0.999890969658817$&C diffusion\tabularnewline
+11&Time Temperature  Range&$1024$&$0.1250$&$0.999890969658817$&C diffusion\tabularnewline
+12&Timer Temperature Range&$1536$&$0.1250$&$0.999890969658817$&C diffusion\tabularnewline
+13&Time Field Range&$ 512$&$0.0625$&$1.000000000000000$&alpha scale\tabularnewline
+14&Time Field  Range&$1024$&$0.1875$&$0.952256279729904$&alpha scale\tabularnewline
+15&Time Field Range&$1536$&$0.1250$&$0.999890969658817$&alpha scale\tabularnewline
+16&Time Field Range&$ 512$&$0.0625$&$1.000000000000000$&C diffusion\tabularnewline
+17&Time Field  Range&$1024$&$0.1250$&$0.999890969658817$&C diffusion\tabularnewline
+18&Time Field Range&$1536$&$0.1875$&$0.952256279729904$&C diffusion\tabularnewline
+\hline
+\end{tabular}\end{center}
+\end{table}

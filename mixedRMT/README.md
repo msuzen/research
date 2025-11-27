@@ -1,5 +1,7 @@
 # Mixed Random Matrix Theory (mixedRMT) : Practice and resources
 
+[leymosun](https://github.com/msuzen/leymosun) package provides an implementation of mixedRMT topics.
+
 ## Introduction
 
 There are many processes that one can apply Random Matrix Theory (RMT), from quantum statistical mechanics to computer networks to deep learning. Primary shortcoming of the existing RMT ensemble approaches that they fix the size of the matrices sampled. This limit the applicability of RMT in many situations, whereby  primary components are heterogeneous. This lead to need for building mixed matrix ensembles (MMEs). The analysis of such ensembles is called Mixed RMT.

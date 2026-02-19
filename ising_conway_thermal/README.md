@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17158156.svg)](https://doi.org/10.5281/zenodo.17158156)
 
     M. Süzen   
-    (c) 2025
+    (c) 2025, 2026
 
 Simulation code and reproducible research for the paper: 
 
@@ -20,9 +20,11 @@ for core simulation code, `matplotlib` for visualisationas and `dill`
 for data storage.
 
 ```python 
-numpy==1.24.2 
+numpy==1.24.2
 matplotlib==3.8.0
 dill==0.3.9
+pandas==2.3.3
+scipy==1.14.0
 ```
 
 ## `ising_conway` methods
@@ -48,6 +50,7 @@ Following scripts generate the data and plots.
 `stacked_trajectories.py`: Full evolution of games, as an example.      
 `plot_entropy_evolution.py`: Entropy evolution of all settings from generated dataset.      
 `plot_entropy_production.py`: Entropy production of all settings from production.      
+`dynamic_difference_finete_size.ipynb`: KS-test and Finite-size plots.
 
 ## Outputs
 
@@ -56,13 +59,6 @@ Data files due to dataset generation, `data_entropy_production.dill`.
 Images due to plot scripts, with uncertainties.
     
 ```bash
-entropy_N100M20dynamicsglauber.png
-entropy_N100M20dynamicsmetropolis.png
-entropy_N150M45dynamicsglauber.png
-entropy_N150M45dynamicsmetropolis.png
-entropy_production.png
-ising_conway_glauber_evolution_150_45_beta_0.9.png
-ising_conway_metropolis_evolution_150_45_beta_0.9.png
 ```
 
 ## License

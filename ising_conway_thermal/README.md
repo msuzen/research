@@ -59,6 +59,19 @@ Data files due to dataset generation, `data_entropy_production.dill`.
 Images due to plot scripts, with uncertainties.
     
 ```bash
+entropy_N30M10dynamicsglauber.png
+entropy_N30M10dynamicsmetropolis.png
+entropy_N40M10dynamicsglauber.png
+entropy_N40M10dynamicsmetropolis.png
+entropy_N50M10dynamicsglauber.png
+entropy_N50M10dynamicsmetropolis.png
+entropy_production_cdf.png
+entropy_production_finite_size_glauber.png
+entropy_production_finite_size_metropolis.png
+entropy_production_glauber.png
+entropy_production_metropolis.png
+ising_conway_glauber_evolution_50_10_beta_1.png
+ising_conway_metropolis_evolution_50_10_beta_1.png
 ```
 
 ## License

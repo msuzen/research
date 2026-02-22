@@ -1,0 +1,25 @@
+[
+  {
+    "N": 512,
+    "dynamics": "Metropolis",
+    "ikBT": 1,
+    "alpha_mean": 1.5139,
+    "alpha_lower": 1.5054,
+    "alpha_upper": 1.5231,
+    "C_mean": -6.0216,
+    "C_lower": -6.1109,
+    "C_upper": -5.9503,
+    "adjR2_mean": 0.9984,
+    "adjR2_lower": 0.9982,
+    "adjR2_upper": 0.9985,
+    "xmin_mean": 6.0335,
+    "xmin_lower": 6.0164,
+    "xmin_upper": 6.0524,
+    "optDs_mean": 1.7876,
+    "optDs_lower": 1.762,
+    "optDs_upper": 1.8162,
+    "H": 0.92,
+    "J": 1,
+    "nrepeat": 40
+  }
+]

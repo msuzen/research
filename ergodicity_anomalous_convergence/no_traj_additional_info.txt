@@ -1,0 +1,33 @@
+Ergodic Dynamics of Ising Model : Diffusion regimes v2
+
+
+(c) 2013, 2014, 2015, 2016, 2025
+Süzen
+GPL v3
+
+Reproducing the data and analysis for the article:
+
+Anomalous diffusion in convergence to effective ergodicity
+M. Suezen
+arXiv:1606.08693
+
+This is significantly advanced analysis with two different power-laws, one for distribution of  the Gamma (Rate of effective ergodic convergence modified TM-metric) and time-displacement for the Kappa (Inverse of Gamma). 
+
+Enhanced fitting diagnostics: Extensive automated and visual plots for each case.
+Clarification of Power-laws.
+Extensive plotting of temperature-field ranges.
+KS-statistics comparing Glauber/Metropolis dynamics. 
+
+For its content see the README.md file. 
+
+Reproducing Trajectories and Diagnostic plots
+
+Datasets that would be generate with notebooks would be around~7GB. In this repository we only retain the analysis output not the trajectories and diagnostic plots.  
+Trajectory files are ising1Dmagnetisation.rds,  ising1DrateErgodicity.rds, ising1DrateErgodicityFields.rds. The remaining datasets are powerlaw data frames. 
+Individual diagnostic plots are also not placed due to space consideration. plots/powerLawKappa, plots/powerLawKappaFields/ and plots/magnetisation/. 
+
+License
+
+This project and all contributions are licensed under :
+* All non-code License: CC BY 4.0]
+* Code under [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)

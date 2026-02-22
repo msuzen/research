@@ -1,0 +1,25 @@
+[
+  {
+    "N": 1024,
+    "dynamics": "Glauber",
+    "ikBT": 1,
+    "alpha_mean": 1.249,
+    "alpha_lower": 1.228,
+    "alpha_upper": 1.2623,
+    "C_mean": -4.8075,
+    "C_lower": -4.9042,
+    "C_upper": -4.6792,
+    "adjR2_mean": 0.9961,
+    "adjR2_lower": 0.9958,
+    "adjR2_upper": 0.9964,
+    "xmin_mean": 5.9906,
+    "xmin_lower": 5.9598,
+    "xmin_upper": 6.0358,
+    "optDs_mean": 1.9162,
+    "optDs_lower": 1.8955,
+    "optDs_upper": 1.9395,
+    "H": 0.74,
+    "J": 1,
+    "nrepeat": 40
+  }
+]

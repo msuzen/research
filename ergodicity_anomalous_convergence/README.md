@@ -1,8 +1,5 @@
 # Comprehensive Dataset for Anomalous Functional-Diffusion for ergodicity convergence
-
-[![arXiv:1606.08693](https://img.shields.io/badge/arXiv-1606.08693-B31B1B.svg)](https://arxiv.org/abs/1606.08693)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17515178.svg)](https://doi.org/10.5281/zenodo.17515178)
-
+ 
   (c) 2013, 2014, 2015, 2016, 2025  
   Süzen
   GPL v3 
@@ -13,24 +10,7 @@ We provide entire datasets, plots and table with reporducible notebooks to regen
 
 Anomalous diffusion in convergence to effective ergodicity
 M. Suezen  
-[arXiv:1606.08693](https://arxiv.org/abs/1606.08693)
-
-## v2 Notes
-
-This is significantly advanced analysis with two different power-laws, one for distribution of  the Gamma (Rate of effective ergodic convergence modified TM-metric) and time-displacement for the Kappa (Inverse of Gamma). 
-
-* Enhanced fitting diagnostics: Extensive automated and visual plots for each case.
-* Clarification of Power-laws.
-* Extensive diagnostic plotting of temperature-field ranges.
-* KS-statistics comparing Glauber/Metropolis dynamics. 
-
-For its content see the README.md file. 
-
-### Reproducing Trajectories and Diagnostic plots
-
-Datasets that would be generate with notebooks would be around~7GB. In this repository we only retain the analysis output not the trajectories and diagnostic plots.  
-Trajectory files are ising1Dmagnetisation.rds,  ising1DrateErgodicity.rds, ising1DrateErgodicityFields.rds. The remaining datasets are powerlaw data frames. 
-Individual diagnostic plots are also not placed due to space consideration. plots/powerLawKappa, plots/powerLawKappaFields/ and plots/magnetisation/. 
+[arXiv:1606.08693](https://arxiv.org/abs/1606.08693), Physica Scripta (2026)
 
 ## Notebooks
 

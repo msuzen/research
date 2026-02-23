@@ -6,11 +6,16 @@
 
 ## Summary
 
-We provide entire datasets, plots and table with reporducible notebooks to regenerate them, for the working paper. Extensive automated and visual diagnostics are provided.
+We provide entire datasets, plots and table with reporducible notebooks to regenerate them, for the working paper. Extensive automated and visual diagnostics are provided. <br>
 
-Anomalous diffusion in convergence to effective ergodicity
-M. Suezen  
-[arXiv:1606.08693](https://arxiv.org/abs/1606.08693), Physica Scripta (2026)
+Anomalous diffusion in convergence to effective ergodicity <br>
+Physica Scripta <br>
+doi: <a href="https://doi.org/10.1088/1402-4896/ae483e"> 10.1088/1402-4896/ae483e </a> (2026)
+<br>
+arXiv: arXiv. doi: <a href="https://doi.org/10.48550/arXiv.1606.08693">10.48550/arXiv.1606.08693</a> (2016-2026) <br>
+Dataset: Zenodo doi: <a href="https://doi.org/10.5281/zenodo.18223717">10.5281/zenodo.18223717</a>  <br>
+GitHub: <a href="https://github.com/msuzen/research/tree/main/ergodicity_anomalous_convergence">msuzen/research/ergodicity_anomalous_convergence</a>
+<br>
 
 ## Notebooks
 

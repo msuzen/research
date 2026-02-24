@@ -32,12 +32,10 @@ from numpy.random import choice
 from numpy import zeros, where
 import matplotlib.pyplot as plt
 
-
 def initialise(M, N):
     sites = zeros(M, dtype=np.int64)
     sites[0:N] = 1
     return sites
-
 
 def get_total_energy(sites):
     total_energy = 0.0
@@ -46,8 +44,13 @@ def get_total_energy(sites):
         if sites[i] == 1:
             local_energy = (sites[i - 1] + sites[i + 1]) / 2.0
             total_energy += local_energy
+    if sites[0] == 1:
+        local_energy = sites[1]/2.0
+        total_energy += local_energy
+    if sites[n-1] == 1:
+        local_energy = sites[n-2]/2.0
+        total_energy += local_energy
     return total_energy
-
 
 def metropolis_accept(sites, trial_sites, beta=0.1):
     total_energy0 = get_total_energy(sites)

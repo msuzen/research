@@ -11,7 +11,7 @@ Dr. Suzen's Zenodo repositories: [here](https://zenodo.org/search?q=metadata.cre
 
 
 
-## Archived Projects in this repo
+## Archived Projects in this repo (Any updates, see their corresponding Zenodo repo).
 
 [![arXiv:1606.08693](https://img.shields.io/badge/arXiv-1606.08693-B31B1B.svg)](https://arxiv.org/abs/1606.08693)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17151290.svg)](https://doi.org/10.5281/zenodo.17151290)
